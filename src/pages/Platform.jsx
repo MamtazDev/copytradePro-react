@@ -1,4 +1,5 @@
 import React from "react";
+import platform from "../../src/assets/images/platform.png";
 
 const Platform = () => {
   return (
@@ -11,11 +12,7 @@ const Platform = () => {
             copy each other's trades.
           </p>
           <div class="text-center">
-            <img
-              class="img-fluid"
-              src="/src/assets/images/platform.png"
-              alt="Table"
-            />
+            <img class="img-fluid" src={platform} alt="Table" />
           </div>
         </div>
       </div>
