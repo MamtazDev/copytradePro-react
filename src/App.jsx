@@ -4,6 +4,9 @@ import Header from "./components/Header";
 import Banner from "./pages/Banner";
 import PresaleLive from "./pages/PresaleLive";
 import KeyFeature from "./pages/KeyFeature";
+import Platform from "./pages/Platform";
+import RoadMap from "./pages/RoadMap";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +18,9 @@ function App() {
       <Banner />
       <PresaleLive />
       <KeyFeature />
+      <Platform />
+      <RoadMap />
+      <Footer />
     </>
   );
 }
