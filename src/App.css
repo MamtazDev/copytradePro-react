@@ -460,7 +460,7 @@ header .nav-link:focus,
   border-radius: 23px;
   border: 1px solid var(--border-divider-border-secondary, #2f344c);
   background: var(--surface-surface-secondary-02, #272a3e);
-  background-image: url("../images/trade_bg.png");
+  background-image: url("/src/assets/images/trade_bg.png");
   background-repeat: no-repeat;
   background-position: right top;
   box-shadow: -3px 3px 5px 0px rgba(15, 15, 15, 0.1);
@@ -510,7 +510,7 @@ header .nav-link:focus,
 .key_inner {
   margin-top: 50px;
   padding-bottom: 76px;
-  background-image: url("../images/cell_curve.png");
+  background-image: url("/src/assets/images/cell_curve.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -573,7 +573,7 @@ header .nav-link:focus,
 }
 
 .back_img {
-  background-image: url("../images/visualize_bg_curve.png");
+  background-image: url("/src/assets/images/visualize_bg_curve.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom left;
@@ -585,7 +585,7 @@ header .nav-link:focus,
 /* Sort Trade Start */
 .sort_trade {
   padding-top: 150px;
-  background-image: url("../images/sort_curve.png");
+  background-image: url("/src/assets/images/sort_curve.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
