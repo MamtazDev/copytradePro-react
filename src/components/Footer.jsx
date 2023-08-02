@@ -38,7 +38,7 @@ const Footer = () => {
                   <a href="#">
                     <img
                       className="me-2"
-                      src="./assets/images/twitter.png"
+                      src="/src/assets/images/twitter.png"
                       alt="Twitter"
                     />
                     Twitter
@@ -48,7 +48,7 @@ const Footer = () => {
                   <a href="#">
                     <img
                       className="me-2"
-                      src="./assets/images/telegram.png"
+                      src="/src/assets/images/telegram.png"
                       alt=""
                     />{" "}
                     Telegram
@@ -58,7 +58,7 @@ const Footer = () => {
                   <a href="#">
                     <img
                       className="me-2"
-                      src="./assets/images/email.png"
+                      src="/src/assets/images/email.png"
                       alt=""
                     />{" "}
                     admin@copytradepro.io
@@ -85,7 +85,10 @@ const Footer = () => {
                     placeholder="Enter your email"
                   />
                   <button type="submit">
-                    <img src="./assets/images/right_arrow.png" alt="Button" />
+                    <img
+                      src="/src/assets/images/right_arrow.png"
+                      alt="Button"
+                    />
                   </button>
                 </form>
               </div>

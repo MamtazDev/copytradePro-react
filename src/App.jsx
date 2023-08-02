@@ -7,6 +7,7 @@ import KeyFeature from "./pages/KeyFeature";
 import Platform from "./pages/Platform";
 import RoadMap from "./pages/RoadMap";
 import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Platform />
       <RoadMap />
       <Footer />
+      <CopyRight />
     </>
   );
 }
