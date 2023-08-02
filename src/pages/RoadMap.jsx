@@ -1,4 +1,6 @@
 import React from "react";
+import greenCheck from "../assets/images/green_check.png";
+import grayCheck from "../assets/images/gray_check.png";
 
 const RoadMap = () => {
   return (
@@ -19,31 +21,31 @@ const RoadMap = () => {
                 <span>Stage 1</span>
                 <div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>Group Formation</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>BitCopyTrade website creation</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>Social communities</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>BitCopyTrade token audit</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>Founders KYC</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>Phase 1 marketing campaign</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/green_check.png" alt="" />
+                    <img src={greenCheck} alt="" />
                     <p>Launch public presale</p>
                   </div>
                 </div>
@@ -55,31 +57,31 @@ const RoadMap = () => {
                 <span>Stage 2</span>
                 <div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Launch on Uniswap</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Coinmarketcap Listing</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Coingecko listing</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Launch Copytradepro beta</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Phase 2 marketing campaign</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Beta development of app</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>IOS and Android development</p>
                   </div>
                 </div>
@@ -91,31 +93,31 @@ const RoadMap = () => {
                 <span>Stage 3</span>
                 <div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Launch on CEX</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Copytradepro platform launch</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>VIP members can start trading</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Phase 3 marketing campaign</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Top traders competition</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Launch IOS and Android App</p>
                   </div>
                   <div className="d-flex align-items-center gap-1 mb-3">
-                    <img src="/src/assets/images/gray_check.png" alt="" />
+                    <img src={grayCheck} alt="" />
                     <p>Phase 4 marketing campaign</p>
                   </div>
                 </div>

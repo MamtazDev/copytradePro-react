@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/Logo.png";
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="index.html">
-            <img src="/src/assets/images/Logo.png" alt="" />
+            <img src={logo} alt="" />
           </a>
           <button
             className="navbar-toggler"

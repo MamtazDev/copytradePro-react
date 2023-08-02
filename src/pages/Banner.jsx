@@ -1,4 +1,8 @@
 import React from "react";
+import audit from "../assets/images/audit.png";
+import kyc from "../assets/images/KYC.png";
+import unlock from "../assets/images/unlock.png";
+import saveMoney from "../assets/images/save-money.png";
 
 const Banner = () => {
   return (
@@ -19,20 +23,12 @@ const Banner = () => {
               </p>
               <div className="audit_kyc d-flex align-items-center">
                 <div className="d-flex align-items-center gap-4">
-                  <img
-                    className="img-fluid"
-                    src="/src/assets/images/audit.png"
-                    alt="Audit"
-                  />
+                  <img className="img-fluid" src={audit} alt="Audit" />
                   <a href="#">Audit</a>
                 </div>
                 <div className="line_hero"></div>
                 <div className="d-flex align-items-center gap-4">
-                  <img
-                    className="img-fluid"
-                    src="/src/assets/images/KYC.png"
-                    alt="KYC"
-                  />
+                  <img className="img-fluid" src={kyc} alt="KYC" />
                   <a href="#">KYC</a>
                 </div>
               </div>
@@ -41,11 +37,7 @@ const Banner = () => {
           </div>
           <div className="key_save d-flex justify-content-between align-items-start align-items-lg-center">
             <div className="d-flex align-items-center gap-3">
-              <img
-                className="img-fluid"
-                src="/src/assets/images/unlock.png"
-                alt="Audit"
-              />
+              <img className="img-fluid" src={unlock} alt="Audit" />
               <h6>
                 Unlock the Key to Successful Trading by Subscribing{" "}
                 <br className="d-none d-lg-block" /> to the World's Top Traders.
@@ -53,11 +45,7 @@ const Banner = () => {
             </div>
 
             <div className="d-flex align-items-center gap-3">
-              <img
-                className="img-fluid"
-                src="/src/assets/images/save-money.png"
-                alt="Audit"
-              />
+              <img className="img-fluid" src={saveMoney} alt="Audit" />
               <h6>
                 Reap Rewards by Climbing the Leaderboard:{" "}
                 <br className="d-none d-lg-block" /> Earn an Impressive 50%

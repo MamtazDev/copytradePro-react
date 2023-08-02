@@ -1,4 +1,10 @@
 import React from "react";
+import lock from "../assets/images/lock.png";
+import euroIcon from "../assets/images/euro_icon.png";
+import dollerIcon from "../assets/images/dollar_icon.png";
+import trade from "../assets/images/trade.png";
+import subscribe from "../assets/images/Subscribe.png";
+import earn from "../assets/images/earn.png";
 
 const PresaleLive = () => {
   return (
@@ -32,11 +38,7 @@ const PresaleLive = () => {
                   <tbody>
                     <tr>
                       <td>
-                        <img
-                          className="mx-1"
-                          src="/src/assets/images/lock.png"
-                          alt="Lock"
-                        />
+                        <img className="mx-1" src={lock} alt="Lock" />
                         Round 1
                       </td>
                       <td>
@@ -54,11 +56,7 @@ const PresaleLive = () => {
                     </tr>
                     <tr>
                       <td>
-                        <img
-                          className="mx-1"
-                          src="/src/assets/images/lock.png"
-                          alt="Lock"
-                        />
+                        <img className="mx-1" src={lock} alt="Lock" />
                         Round 2
                       </td>
                       <td>
@@ -76,11 +74,7 @@ const PresaleLive = () => {
                     </tr>
                     <tr>
                       <td>
-                        <img
-                          className="mx-1"
-                          src="/src/assets/images/lock.png"
-                          alt="Lock"
-                        />
+                        <img className="mx-1" src={lock} alt="Lock" />
                         Round 3
                       </td>
                       <td>
@@ -98,11 +92,7 @@ const PresaleLive = () => {
                     </tr>
                     <tr>
                       <td>
-                        <img
-                          className="mx-1"
-                          src="/src/assets/images/lock.png"
-                          alt="Lock"
-                        />
+                        <img className="mx-1" src={lock} alt="Lock" />
                         Round 4
                       </td>
                       <td>
@@ -120,11 +110,7 @@ const PresaleLive = () => {
                     </tr>
                     <tr>
                       <td>
-                        <img
-                          className="mx-1"
-                          src="/src/assets/images/lock.png"
-                          alt="Lock"
-                        />
+                        <img className="mx-1" src={lock} alt="Lock" />
                         Round 5
                       </td>
                       <td>
@@ -264,16 +250,12 @@ const PresaleLive = () => {
                 <div className="change_currency d-flex justify-content-between align-items-center">
                   <div className="change_inner d-flex justify-content-between align-items-center gap-2">
                     <a className="active" href="#">
-                      <img
-                        className="img-fluid"
-                        src="/src/assets/images/euro_icon.png"
-                        alt="Euro"
-                      />
+                      <img className="img-fluid" src={euroIcon} alt="Euro" />
                     </a>
                     <a className="" href="#">
                       <img
                         className="img-fluid"
-                        src="/src/assets/images/dollar_icon.png"
+                        src={dollerIcon}
                         alt="Dollar"
                       />
                     </a>
@@ -289,11 +271,7 @@ const PresaleLive = () => {
         <div className="row gap-2 gap-lg-0">
           <div className="col-12 col-lg-4">
             <div className="tsr_inner">
-              <img
-                className="mb-3 mb-lg-5"
-                src="/src/assets/images/trade.png"
-                alt=""
-              />
+              <img className="mb-3 mb-lg-5" src={trade} alt="" />
               <h3 className="mb-3">Trade</h3>
               <p>
                 Trade on our cutting-edge trading platform that combines the
@@ -305,11 +283,7 @@ const PresaleLive = () => {
           </div>
           <div className="col-12 col-lg-4">
             <div className="tsr_inner">
-              <img
-                className="mb-3 mb-lg-5"
-                src="/src/assets/images/Subscribe.png"
-                alt=""
-              />
+              <img className="mb-3 mb-lg-5" src={subscribe} alt="" />
               <h3 className="mb-3">Subscribe</h3>
               <p>
                 Subscribe to top-performing traders and receive real-time
@@ -321,11 +295,7 @@ const PresaleLive = () => {
           </div>
           <div className="col-12 col-lg-4">
             <div className="tsr_inner">
-              <img
-                className="mb-3 mb-lg-5"
-                src="/src/assets/images/earn.png"
-                alt=""
-              />
+              <img className="mb-3 mb-lg-5" src={earn} alt="" />
               <h3 className="mb-3">Earn</h3>
               <p>
                 Earn three reliable income streams on our trading platform.

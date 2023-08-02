@@ -1,4 +1,7 @@
 import React from "react";
+import keyFeatures from "../assets/images/key_feature.png";
+import proTrades from "../assets/images/pro_trades.png";
+import sortTrades from "../assets/images/sort_trade.png";
 
 const KeyFeature = () => {
   return (
@@ -27,11 +30,7 @@ const KeyFeature = () => {
               </p>
             </div>
             <div className="col-12 col-lg-6 mt-3 mt-mb-0">
-              <img
-                className="img-fluid"
-                src="/src/assets/images/key_feature.png"
-                alt=""
-              />
+              <img className="img-fluid" src={keyFeatures} alt="" />
             </div>
           </div>
         </div>
@@ -74,11 +73,7 @@ const KeyFeature = () => {
           <div className="back_img">
             <div className="row align-items-center gap-2 gap-lg-0 live_reverse">
               <div className="col-12 col-lg-6 mt-3 mt-md-0">
-                <img
-                  className="img-fluid"
-                  src="/src/assets/images/pro_trades.png"
-                  alt=""
-                />
+                <img className="img-fluid" src={proTrades} alt="" />
               </div>
               <div className="col-12 col-lg-6">
                 <h2 className="header_sec text-center text-md-start mb-4">
@@ -147,11 +142,7 @@ const KeyFeature = () => {
             </p>
 
             <div className="text-center">
-              <img
-                className="img-fluid"
-                src="/src/assets/images/sort_trade.png"
-                alt=""
-              />
+              <img className="img-fluid" src={sortTrades} alt="" />
             </div>
           </div>
         </div>

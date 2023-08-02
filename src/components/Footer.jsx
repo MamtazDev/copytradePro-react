@@ -1,4 +1,8 @@
 import React from "react";
+import twitter from "../assets/images/twitter.png";
+import talegram from "../assets/images/telegram.png";
+import email from "../assets/images/email.png";
+import rightArrow from "../assets/images/right_arrow.png";
 
 const Footer = () => {
   return (
@@ -36,31 +40,18 @@ const Footer = () => {
                 <li>contact</li>
                 <li>
                   <a href="#">
-                    <img
-                      className="me-2"
-                      src="/src/assets/images/twitter.png"
-                      alt="Twitter"
-                    />
+                    <img className="me-2" src={twitter} alt="Twitter" />
                     Twitter
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      className="me-2"
-                      src="/src/assets/images/telegram.png"
-                      alt=""
-                    />{" "}
-                    Telegram
+                    <img className="me-2" src={talegram} alt="" /> Telegram
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      className="me-2"
-                      src="/src/assets/images/email.png"
-                      alt=""
-                    />{" "}
+                    <img className="me-2" src={email} alt="" />{" "}
                     admin@copytradepro.io
                   </a>
                 </li>
@@ -85,10 +76,7 @@ const Footer = () => {
                     placeholder="Enter your email"
                   />
                   <button type="submit">
-                    <img
-                      src="/src/assets/images/right_arrow.png"
-                      alt="Button"
-                    />
+                    <img src={rightArrow} alt="Button" />
                   </button>
                 </form>
               </div>
